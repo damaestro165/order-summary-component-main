@@ -14,13 +14,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0px 40px 0px;
     background-image: url("images/pattern-background-mobile.svg");
 }
 .container{
     display: flex;
     flex-direction: column;
-    background-color: hsl(225, 100%, 98%);
+    background-color: white;
     max-width: 80%;
     border-radius: 15px 15px;
     max-height: 80%;
