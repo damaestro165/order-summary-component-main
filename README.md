@@ -18,8 +18,8 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-- Solution URL: [Github](https://github.com/damaestro165/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/damaestro165/order-summary-component-main)
+- Live Site URL: [ Live on Netlify](https://order-summary-component-damaestro.netlify.app/)
 
 ## My process
 
