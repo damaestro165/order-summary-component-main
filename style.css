@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+    background-image: url("images/pattern-background-mobile.svg");
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 98%);
+    max-width: 80%;
+    border-radius: 15px 15px;
+    max-height: 80%;
+    box-shadow: 1px 0px 20px hsl(245, 82%, 85%);
+}
+.container img{
+border-radius: 15px 15px 0px 0px;
+}
+br{
+    display: none;
+}
+.containerText{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+    padding: 5px;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(224, 23%, 55%);
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+}
+.para{
+    margin-bottom: 5px;
+    line-height: 1.4rem;
+    margin: 10px;
+    font-size: small;
+}
+.bigText{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+.annualIcon{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 2;
+}
+.annual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(225, 100%, 97%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    font-weight: 700;
+    font-size: small;
+    line-height: 1.2rem;
+}
+a{
+    font-weight: 700;
+    font-size: small;
+}
+a:hover{
+    text-decoration: none;
+    color: #766cf1;
+}
+.planH{
+    font-weight: 900;
+    font-size: small;
+    color: hsl(223, 47%, 23%);
+}
+.cta{
+    padding: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cta input{
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    border: none;
+    width: 90%;
+    font-weight: 700;
+    font-size: small;
+    box-shadow: 0px 3px 15px hsl(245, 100%, 74%);
+}
+.cta input:hover{
+    background-color: #766cf1; 
+    text-decoration: none;
+    cursor: pointer;
+}
+.cancel{
+    padding: 5px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: small;
+    
+}
+.cancel>a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel>a:hover{
+    color:  hsl(223, 47%, 23%);
+}
+
+@media (min-width:756px) 
+ {
+    main{
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px 40px 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("images/pattern-background-desktop.svg");
+    }
+    .container{
+        display: absolute;
+        flex-direction: column;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 15px 15px;
+        width: 30%;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .container img{
+    border-radius: 15px 15px 0px 0px;
+    }
+    .containerText{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 15px;
+        padding: 5px;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: hsl(224, 23%, 55%);
+    }
+    .destopBr{display: block;}
+    .text{
+        text-align: center;
+        font-size: 16px;
+    
+    }
+    .para{
+        margin-bottom: 5px;
+        line-height: 1.4rem;
+        margin: 10px;
+        font-size: small;
+    }
+    .bigText{
+        font-weight: 900;
+        font-size: 1.2rem;
+        color: hsl(223, 47%, 23%);
+    }
+    .annual{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: hsl(225, 100%, 97%);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px;
+        width: 90%;
+        font-weight: 500;
+        font-size: small;
+    }
+    a{
+        font-weight: 700;
+        font-size: small;
+    }
+    .planH{
+        font-weight: 900;
+        font-size: small;
+        color: hsl(223, 47%, 23%);
+    }
+    .cta{
+        padding: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cta input{
+        background-color: hsl(245, 75%, 52%);
+        padding: 20px 20px;
+        border-radius: 10px;
+        color: hsl(225, 100%, 98%);
+        border: none;
+        width: 90%;
+        font-weight: 700;
+        font-size: small;
+        box-shadow: 0px 3px 15px hsl(245, 100%, 74%);
+    }
+      
+
+
+
+ }
